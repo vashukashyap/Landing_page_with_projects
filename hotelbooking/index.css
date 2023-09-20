@@ -1,0 +1,962 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    scroll-behavior: smooth;
+    background-color: #2A2A2A;
+}
+
+
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 1rem;
+    height: 3rem;
+}
+
+
+#navlogo span{
+    font-size: 1.5rem;
+}
+
+#navlogo{
+    margin-top: 0.8rem;
+    cursor: pointer;    
+}
+
+#navbtn{
+    background-color: #2A2A2A;
+    border: none;
+    display: none;
+}
+
+#navoptions ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    color: #B3AEAE;
+}
+
+#navoptions ul li{
+    cursor: pointer;
+}
+
+.active{
+    border-bottom: #B3AEAE 1px solid;
+}
+
+#subnav{
+    display: flex;
+    margin-right: 3rem;
+}
+
+#designhousediv{
+    width: 20rem;
+}
+
+#designhouseesection{
+    margin-left: 5rem;
+    width: fit-content;
+}
+
+#designhousediv img{
+    width: 9rem;
+}
+
+#house3{
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 10.5rem;
+}
+
+#house2{
+display: block;
+position: absolute;
+margin-left: 9rem;
+margin-top: -6rem;
+
+}
+
+
+#motd{
+    margin-left: 3rem;
+    font-size: 3rem;
+}
+
+#motd div h1 img{
+    height: 6rem;
+}
+
+
+
+#locbox{
+    background-color: #3D3D3D;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 0.3rem 2rem 0.5rem 1rem;
+    height: 10rem;
+    width: 7rem;
+    border-radius: 2rem;
+}
+
+#mapbox{
+    width: fit-content;
+}
+
+#mapbox img{
+    margin-left: 0px;
+}
+
+#locbox p{
+    color: #9D9D9D;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C9FF9F;
+    border-radius: 5rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+#imgdiv2{
+    background-color: #CBA2FF;
+}
+
+.vertical_dotted_line{
+    border-left: 4px dotted #FFFFFF;
+    height: 2rem;
+    position: absolute;
+    margin-top: 5.3rem;
+    margin-left: 0.8rem;
+} 
+
+.locflex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.locflex h5{
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-left: 0.2rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.locflex h5 span{
+    color: #9D9D9D;
+    font-size: 0.5rem;
+    margin-top: -0.1rem;
+}
+
+#locflex1{
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
+
+#locflex2{
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+
+#mapimg{
+    margin-top: -10.7rem;
+    margin-left: 3rem;   
+}
+
+#timediv{
+    position: absolute;
+    background-color: #000000;
+    width: fit-content;
+    height: 1.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0.3rem;
+    border-radius: 2rem;
+    margin-top: -3.5rem;
+    margin-left: 1rem;
+}
+
+#timediv h4{
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin: 0rem 0.4rem;
+}
+
+#dashimg-sm{
+    display: none;
+}
+
+#dashimg{
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+
+#featurediv{
+    font-size: 0.8rem;
+    color: #9D9D9D;
+}
+
+
+#featuresbox{
+    background-color: #FFFFFF;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 18rem;
+    height: 18.5rem;
+    gap: 2rem;
+    border-radius: 2rem;
+}
+
+
+
+
+#featureheading{
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    font-size: 1rem;
+    gap: 4rem;
+    margin-bottom: -5rem;
+}
+
+#featureheading div{
+    background-color: #000000;
+    width: 1.5rem;
+    height: 1.rem;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem; 
+}
+
+.featuresection{
+    background-color: #3D3D3D;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    align-content: stretch;
+    width: 13.5rem;
+}
+
+#featuresection2{
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+}
+
+.featuresection h4{
+    font-size: 1rem;
+    color: #D0CDCD;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.featuresection h4 span{
+    font-size: 0.8rem;
+    color: #939393;
+    font-weight: 400;
+    margin-top: -0.2rem;
+}
+
+.featuresection section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 0.6rem;
+    border-radius: 3rem;
+    margin-right: 0.5rem;
+}
+
+.featuresection section img{
+    width: 1.2rem;
+}
+
+#featureimg1{
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 0.1rem;
+}
+
+
+#featureimg2{
+    width: 1.5rem;
+    height: 1.5rem;
+} 
+
+
+#bookingsection{
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 15rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 0rem 1rem;
+    border-radius: 2rem;
+}
+
+#bookingsection div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bookingsection h2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    margin-top: -0.1rem;
+    cursor: pointer;
+}
+
+#dollarimg{
+    background-color: #000000;
+    padding: 0.6rem 0.8rem;
+    border-radius: 2rem;
+}
+
+#hotels{
+    margin: 10rem 0rem;
+}
+
+#hoteltitle{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hoteldiv{
+    background-color: #FFFFFF;
+    width: 18rem;
+    height: 24rem;
+    color: #000000;
+    border-radius: 1.2rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.hotelimg{
+    width: 18rem;
+}
+
+.hotelsection{
+    padding: 1rem;
+}
+
+.hotelsection h4{
+    margin: 0px;
+    font-size: 1.4rem;
+}
+
+.hotelsection section div{
+    display: flex;
+    flex-direction: column;
+}
+
+.hotelsection section div h5{
+    margin: 0.5rem 0rem;
+    color: #5D5D5D;
+}
+
+.hotelsection section div h3{
+    margin: -0.5rem 0rem;
+    color: #7F9541;
+    font-weight: 500;
+}
+
+.hoteldetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hotelarrow{
+    width: 2rem;
+}
+
+#hotelsection{
+    margin-top: 23rem;
+}
+
+#hotelheading{
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+#hotelslider{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 2rem;
+}
+
+#hotelslider::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+#footerleft{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#footerleft h1{
+    font-size: 5rem;
+}
+
+#footerleft p{
+    color: #8F8F8F;
+}
+
+#searchbox{
+    border: #FFFFFF 2px solid;
+    width: fit-content;
+    background-color: #2A2A2A;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#searchbox input{
+    background-color: #2A2A2A;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 2rem;
+    margin-left: 1rem;
+
+}
+
+#searchbox input:focus{
+    outline: none;
+}
+
+#searchbox input::placeholder{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+
+#searchbox button{
+    border: none;
+    border-radius: 2rem;
+    padding: 0.6rem 0.75rem;
+    cursor: pointer;
+}
+
+
+
+#footerright{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2rem;
+    margin-right: 1rem;
+    flex-grow: 1;
+}
+
+#bigimg{
+    background-image: url("./images/palmtree.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 26rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1rem;
+}
+
+
+
+#bigimg h3{
+    font-size: 2rem;
+}
+
+#bigimg div{
+    background-color: #578888;   
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.2rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#placerating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 2rem;
+    padding: 0rem 2rem;
+    font-size: 1rem;
+}
+
+#smflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smdiv{
+    width: 22rem;
+    height: 18.5rem;
+    padding: 0rem 1rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.smdiv h3{
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.smdiv button{
+    background-color: #ffffffb4;   
+    backdrop-filter: blur(10px);
+    padding: 1rem 1.1rem;
+    border: none;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.smdiv button svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+#smdiv1{
+    background-image: url("./images/desert.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.smdiv{
+    background-image: url("./images/island.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: start ;
+    gap: 1rem;
+    margin: 3rem;
+}
+
+
+@media (max-width: 860px){
+
+
+    #nav{
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.5rem;
+    }
+
+    #subnav{
+        width: 0rem;
+    }
+
+    #navoptions{
+        display: none;
+    }
+
+    #navbtn{
+        display: block;
+        cursor: pointer;
+    }
+
+    #navlogo{
+        margin-top: 0rem;
+    }
+
+    #designhousediv{
+        display: none;
+    }
+
+    #motd{
+        margin-left: 0rem;
+        font-size: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #motd div h1 img{
+        height: 5.3rem;
+    }
+
+
+    #dashimg{
+        display: none;
+    }
+
+    #dashimg-sm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+
+    #dashimg-sm p{
+        font-size: 0.8rem;
+        color: #9D9D9D;
+        text-align: center;
+    }
+
+    
+    #hotelslider{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        overflow-x: scroll;
+        gap: 2rem;
+    }
+
+    #footerleft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footerleft h1{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #footerleft p{
+        text-align: center;
+    }
+    
+    #searchbox{
+        margin-top: -0.1rem;
+    }
+
+    
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center ;
+        gap: 1rem;
+        margin: 3rem;
+    }
+    
+    #footerright{
+        display: none;
+    }
+
+
+    #footerright-sm{
+        display: block !important;
+        margin: 0.5rem;
+    }
+
+    #bigimg-sm{
+        background-image: url("./images/palmtree.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        padding: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        border-radius: 2rem;
+    }
+
+    #bigimg-sm div{
+        cursor: pointer;
+    }
+    
+    #bigimg-sm h3{
+        font-size: 1.2rem;
+    }
+
+    #bigimg-sm div p{
+        font-size: 0.6rem;
+    }
+
+    #bigimg-sm div img{
+        height: 1rem;
+    }
+
+    #bigimg-sm div{
+        background-color: #578888;   
+        backdrop-filter: blur(10px);
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        padding: 0.2rem 1rem;
+        border-radius: 2rem;
+    }
+
+    #smflex-sm{
+        position: relative !important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around !important;
+        align-items: center;
+        margin: 1rem 0.5rem !important;
+        gap: 0rem !important;
+    }
+
+    .smdiv-sm{
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        width: 8rem;
+        height: 7.5rem;
+        padding: 0.8rem;
+    }
+
+    .smdiv-sm h3{
+        font-size: 0.8rem;
+    }
+
+    .smdiv-sm button{
+        background-color: #ffffffb4;   
+        backdrop-filter: blur(10px);
+        padding: 0.4rem 0.5rem;
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
+    }
+
+    .smdiv-sm button svg{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    #smdiv1-sm{
+        background-image: url("./images/desert.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #smdiv2-sm{
+        background-image: url("./images/island.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+
+}
+
+#footerright-sm{
+    display: none;
+}
+
+@media (max-width: 1024px){
+
+   
+
+    #hotelslider{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        overflow-x: scroll;
+        gap: 2rem;
+    }
+
+    
+    #footerleft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #footerleft h1{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    #footerleft p{
+        text-align: center;
+    }
+    
+    #searchbox{
+        margin-top: -0.1rem;
+    }
+
+    
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center ;
+        gap: 1rem;
+        margin: 3rem;
+    }
+    
+    #footerright{
+        display: none;
+    }
+
+
+    #footerright-sm{
+        display: block !important;
+        margin: 0.5rem;
+    }
+
+    #bigimg-sm{
+        background-image: url("./images/palmtree.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 15rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        border-radius: 2rem;
+    }
+
+    
+    #bigimg-sm h3{
+        font-size: 1.2rem;
+    }
+
+    #bigimg-sm div{
+        z-index: 2;
+        cursor: pointer;
+    }
+
+    #bigimg-sm div p{
+        font-size: 0.6rem;
+        font-weight: 300 !important;
+    }
+
+    #bigimg-sm div img{
+        height: 1rem;
+    }
+
+    #bigimg-sm div{
+        background-color: #578888;   
+        backdrop-filter: blur(10px);
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        padding: 0.2rem 1rem;
+        border-radius: 2rem;
+    }
+
+    #smflex-sm{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        gap: 2rem;
+        margin-top: -10rem;
+        margin-left: -3rem;
+        width: 100%;
+    }
+
+    .smdiv-sm{
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        width: 8rem;
+        height: 7.5rem;
+        padding: 0.8rem;
+    }
+
+    .smdiv-sm h3{
+        font-size: 0.8rem;
+        font-weight: 300 !important;
+    }
+
+    .smdiv-sm button{
+        background-color: #ffffffb4;   
+        backdrop-filter: blur(10px);
+        padding: 0.4rem 0.5rem;
+        border: none;
+        border-radius: 3rem;
+        cursor: pointer;
+    }
+
+    .smdiv-sm button svg{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    #smdiv1-sm{
+        background-image: url("./images/desert.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #smdiv2-sm{
+        background-image: url("./images/island.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+}

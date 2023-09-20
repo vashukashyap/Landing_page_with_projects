@@ -1,0 +1,337 @@
+body{
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 0px;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+    scroll-behavior: smooth;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+
+#logo{
+    background: linear-gradient(91.77deg, #FFDE88 19.3%, rgba(167, 139, 247, 0.505797) 84.5%, rgba(185, 250, 169, 0.432292) 108.74%, rgba(94, 255, 18, 0) 227.59%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    border-radius: 0.5rem;
+    border: 1px solid #1E1E1E;
+    background: linear-gradient(269.58deg, #B239DD -19.97%, rgba(151, 255, 168, 0.554278) 53.52%, rgba(255, 165, 165, 0) 144.91%);
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 0.5rem;
+    background-color: #1E1E1E;
+    z-index: -1;
+    transition: 200ms
+}
+
+.btn span{
+    background: linear-gradient(268.68deg, #E29CEE -65.4%, rgba(148, 230, 161, 0.522954) 61.56%, rgba(255, 255, 255, 0) 200.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+#motd{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
+
+#mes{
+    display: flex;
+    align-items:center;
+    gap:0.5rem;
+}
+
+#line{
+    height: 2px;
+    width: 6rem;
+    background-color: #A9A9A9;
+}
+
+#mes span{
+    color: #A9A9A9;
+    font-weight: 400;
+}
+
+#bigmes{
+    margin: 1rem 0rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#bigmes span{
+    background: linear-gradient(270deg, #E493F9 32.32%, rgba(63, 86, 242, 0.790884) 75.59%, rgba(179, 255, 209, 0.61) 113.01%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#phoneheading{
+    color: #C9C9C9;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#phoneform{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#details{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-content: center;
+}
+
+#phoneform label{
+    color: #737373;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#phoneform input{
+    background-color:#333333;
+    border: none;
+    padding: 0.8rem 0.6rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #A1A1A1;
+}
+
+#phoneform select{
+    background-color:#333333;
+    border: none;
+    padding: 0.8rem 0.6rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #A1A1A1;
+}
+
+#phoneform input:focus{
+    outline: none;
+}
+
+#cntcode{
+    cursor: pointer;
+}
+
+#countryCode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    padding: 0rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#countryCode img{
+    width: 2rem;
+    height: 2rem;
+}
+
+#cntcode:focus{
+    outline: none;
+}
+
+#phonebtn{
+    margin-top: 1.5rem;
+    background: linear-gradient(269.95deg, #84EE8F -64.98%, rgba(164, 152, 241, 0.75) 68.36%, #FFCB7C 160.63%);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 300 !important;
+    cursor: pointer;
+}
+
+#endland{
+    background-image:url("./images/country/england.svg");
+}
+
+
+
+#cardimg{
+    margin-right: 5rem;
+}
+
+#blur1{
+    position: absolute;
+    height: 18rem;
+    width: 18rem;
+    /* background-color: white; */
+    background: radial-gradient(#3F21F2, #F98F54 );
+    filter: blur(60px);
+    margin-left: 10rem;
+    z-index: -10;
+}
+
+
+#blur2{
+    position: absolute;
+    height: 17rem;
+    width: 17rem;
+    background: radial-gradient(#FF78E1 ,#CEFBD8,#7D6CE3);
+    filter: blur(100px);
+    margin-top: 11rem;
+    margin-left: 2rem;
+    z-index: -10;
+}
+
+footer{
+    margin: 0.5rem 2rem;
+}
+
+footer p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #7D7D7D;
+}
+
+footer p span{
+    background: linear-gradient(90deg, #8ef5c3 44.76%, #59FFAF 89.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width: 900px){
+
+    #nav{
+        padding: 1rem 0.2rem;
+    }
+
+    .btn{
+        font-size: 1rem;
+    }
+
+    #logo{
+        font-size: 1.5rem;
+
+    }
+
+    #motd{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 1rem 0rem 0rem 0rem;
+    }
+
+    #motd div p br{
+        display: none;
+    }
+
+    #line{
+        display: none;
+    }
+
+    #mes{
+        display: block;
+        text-align: center;
+    }
+
+    #bigmes{
+        font-size: 2.5rem;
+        text-align: center;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    #carddiv{
+        z-index: -5;
+        position: absolute;
+        left: 0;
+        top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width: 100vw;
+        height: 100vh; 
+        overflow: hidden;
+    }
+
+    #blur1{
+        margin-top: 11rem;
+        margin-left: 5rem;
+    }
+
+    #blur2{
+        display: none;
+    }
+
+
+
+    #cardimg{
+        margin: 5rem 0rem 0rem -4rem;
+    }
+
+    #phoneheading{
+        text-align: center;
+        font-weight: 600;
+    }
+
+    #phoneform{
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+        margin: 1rem 0rem 0rem 1rem;
+    }
+
+    #details{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #details label{
+        font-weight: 600;
+    }
+    #phonenoinput{
+        width: 10rem;
+    }
+    
+    #phonebtndiv{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0rem 0rem 1rem 0rem;
+        
+    }
+
+    footer{
+        text-align: center;
+    }
+}

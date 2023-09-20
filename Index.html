@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welx</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="blurBubble" id="bubble1"></div>
+    <div class="blurBubble" id="bubble2"></div>
+    <div class="blurBubble" id="bubble3"></div>
+
+    <div id="navContainer">
+    <nav id="nav">
+        <h1 id="logo">Welx<span id="dot">.</span></h1>
+        <ul id="navOptions">
+            <li class="active" id="homebtn">Home</li>
+            <li id="pricingbtn" onClick="document.getElementById('pricing').scrollIntoView();">Pricing</li>
+            <li id="projectsbtn" onClick="document.getElementById('projectdiv').scrollIntoView();">Projects</li>
+        </ul>
+        <button class="navbutton" id="fivBtn">Fiverr</button>
+    </nav>
+    </div>
+
+    <div class="container">
+    <div>
+    <div id="motd">
+        We will <br>
+        design you a <br>
+        landing page
+        <div id="box" ></div>
+    </div>
+    <div id="subMotd">
+        <span id="red">-why me ? </span>Fast delivery. morden <br>
+        landing pages and experience<br>
+        <button class="button" id="ctnBtn">Contact me</button>
+    </div>
+    </div>
+    <div>
+    <div id="hoverbox">
+        <img src="./images/illustration/logos_figma.svg">
+        <span>
+            <div id="line1" class="line"></div>
+            <div id="line2" class="line"></div>
+        </span>
+    </div>
+    <div id="profilebox1" class="profilebox">
+        <img src="./images/illustration/person1.svg">
+        <span>
+            <div id="profileline1" class="line"></div>
+            <div id="profileline2" class="line"></div>
+        </span>
+    </div>
+    <div id="profilebox2" class="profilebox">
+        <img src="./images/illustration/person2.svg">
+        <span>
+            <div id="profile2line1" class="line"></div>
+            <div id="profile2line2" class="line"></div>
+        </span>
+    </div>
+    <img id="treePerson" src="./images/illustration/Saly.svg">
+    <img id="bigCurveBox" src="./images/background/Rectangle.svg">
+    </div>
+    
+    </div>
+    
+    <div class="container" id="rocketContainer">
+    <div id="rocketDiv">
+    <img id="rocketImg" src="./images/illustration/rocket.svg">
+    <div id="shortLine"></div>
+    <h3>Start today</h3>
+    </div>
+    <div id="sections">
+        <div>
+        <section>
+            <div class="circle" id="circle1"></div>
+            <p>Answere some <br> question</p>
+        </section>
+        </div>
+        <hr class="verticalLine">
+        <section>
+            <div class="circle" id="circle2"></div>
+            <p>Give us some<br>content</p>
+        </section>
+        <hr class="verticalLine">
+        <section>
+            <div class="circle" id="circle3"></div>
+            <p>Wait for the final<br>result</p>
+        </section>
+    </div>
+    </div>
+
+    <div id="mainSection">
+        <section><h1>Main <span>benefits</span> for you</h1></section>
+        <h1 id="headingtext">Really care about you</h1>
+        <div id="subSection">
+        <div class="sectionBox">
+            <div>
+            <img class="sectionBoxIcon" src="./images/icons/dollar.svg" alt="image not available">
+            </div>
+            <div>
+            <h3>Low Prices</h3>
+            <p>They are really low<br> and everyone can afford it</p>
+            <a>Read more <img src="./images/icons/slantArrow.svg"></a>
+            </div>
+        </div>
+        <div class="sectionBox">
+            <div>
+            <img class="sectionBoxIcon clockicon" src="./images/icons/clock.svg" alt="image not available">
+            </div>
+            <div>
+            <h3>Fast Delivery</h3>
+            <p>The time of delivery is<br>very short</p>
+            <a>Read more <img src="./images/icons/slantArrow.svg"></a>
+            </div>
+        </div>
+    </div>
+    <div id="centerDiv">
+    <div class="sectionBox">
+        <div>
+        <img class="sectionBoxIcon scaleicon" src="./images/icons/scl.svg" alt="image not available">
+        </div>
+        <div>
+        <h3>Responsive design</h3>
+        <p>The design is responsive<br>for mobile device</p>
+        <a>Read more <img src="./images/icons/slantArrow.svg"></a>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+<div id="projectdiv">
+<div id="projectheading"><h1>Our last Project</h1></div>
+<section class="slider" id="slider">
+    <div class="projectbox">
+        <div class="projectleft">
+            <p class="projectheading">
+                Banking website
+            </p>
+            <div class="projectdetails">
+                Experience convenient<br>and secure banking<br>with our bank website
+            </div>
+            <a href="./bankapp/index.html">
+            <svg class="link" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 11.5C11.9999 11.6326 11.9472 11.7598 11.8535 11.8536C11.7597 11.9473 11.6325 12 11.4999 12H5.4999C5.36729 12 5.24011 11.9473 5.14635 11.8536C5.05258 11.7598 4.9999 11.6326 4.9999 11.5C4.9999 11.3674 5.05258 11.2402 5.14635 11.1465C5.24011 11.0527 5.36729 11 5.4999 11H10.2929L0.145899 0.854021C0.0994111 0.807533 0.062535 0.752344 0.0373759 0.691605C0.0122168 0.630865 -0.000732421 0.565765 -0.000732422 0.500021C-0.000732422 0.434277 0.0122168 0.369177 0.0373759 0.308438C0.062535 0.247698 0.0994111 0.192509 0.145899 0.146021C0.192387 0.0995332 0.247576 0.0626571 0.308316 0.037498C0.369055 0.0123389 0.434155 -0.000610352 0.499899 -0.000610352C0.565643 -0.000610351 0.630743 0.0123389 0.691483 0.037498C0.752222 0.0626571 0.807411 0.0995332 0.853899 0.146021L10.9999 10.293V5.50002C10.9999 5.36741 11.0526 5.24024 11.1463 5.14647C11.2401 5.0527 11.3673 5.00002 11.4999 5.00002C11.6325 5.00002 11.7597 5.0527 11.8535 5.14647C11.9472 5.24024 11.9999 5.36741 11.9999 5.50002V11.5Z" fill="#FFFFFF"/>
+            </svg>
+        </a>
+        </div>
+        <div class="projectright">
+            -03
+        </div>
+    </div>
+
+    <div class="projectbox">
+        <div class="projectleft">
+            <p class="projectheading">
+                NFTWebsite
+            </p>
+            <div class="projectdetails">
+                NFT website design by<br> me with intuitive<br> design.
+            </div>
+            <a href="./nftWebsite/index.html">
+            <svg class="link" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 11.5C11.9999 11.6326 11.9472 11.7598 11.8535 11.8536C11.7597 11.9473 11.6325 12 11.4999 12H5.4999C5.36729 12 5.24011 11.9473 5.14635 11.8536C5.05258 11.7598 4.9999 11.6326 4.9999 11.5C4.9999 11.3674 5.05258 11.2402 5.14635 11.1465C5.24011 11.0527 5.36729 11 5.4999 11H10.2929L0.145899 0.854021C0.0994111 0.807533 0.062535 0.752344 0.0373759 0.691605C0.0122168 0.630865 -0.000732421 0.565765 -0.000732422 0.500021C-0.000732422 0.434277 0.0122168 0.369177 0.0373759 0.308438C0.062535 0.247698 0.0994111 0.192509 0.145899 0.146021C0.192387 0.0995332 0.247576 0.0626571 0.308316 0.037498C0.369055 0.0123389 0.434155 -0.000610352 0.499899 -0.000610352C0.565643 -0.000610351 0.630743 0.0123389 0.691483 0.037498C0.752222 0.0626571 0.807411 0.0995332 0.853899 0.146021L10.9999 10.293V5.50002C10.9999 5.36741 11.0526 5.24024 11.1463 5.14647C11.2401 5.0527 11.3673 5.00002 11.4999 5.00002C11.6325 5.00002 11.7597 5.0527 11.8535 5.14647C11.9472 5.24024 11.9999 5.36741 11.9999 5.50002V11.5Z" fill="#FFFFFF"/>
+            </svg>
+        </a>
+        </div>
+        <div class="projectright">
+            -01
+        </div>
+    </div>
+
+    <div class="projectbox">
+        <div class="projectleft">
+            <p class="projectheading">
+                Booking website
+            </p>
+            <div class="projectdetails">
+                Booking website<br> designed for you
+            </div>
+            <a href="./hotelbooking/index.html">
+            <svg class="link" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 11.5C11.9999 11.6326 11.9472 11.7598 11.8535 11.8536C11.7597 11.9473 11.6325 12 11.4999 12H5.4999C5.36729 12 5.24011 11.9473 5.14635 11.8536C5.05258 11.7598 4.9999 11.6326 4.9999 11.5C4.9999 11.3674 5.05258 11.2402 5.14635 11.1465C5.24011 11.0527 5.36729 11 5.4999 11H10.2929L0.145899 0.854021C0.0994111 0.807533 0.062535 0.752344 0.0373759 0.691605C0.0122168 0.630865 -0.000732421 0.565765 -0.000732422 0.500021C-0.000732422 0.434277 0.0122168 0.369177 0.0373759 0.308438C0.062535 0.247698 0.0994111 0.192509 0.145899 0.146021C0.192387 0.0995332 0.247576 0.0626571 0.308316 0.037498C0.369055 0.0123389 0.434155 -0.000610352 0.499899 -0.000610352C0.565643 -0.000610351 0.630743 0.0123389 0.691483 0.037498C0.752222 0.0626571 0.807411 0.0995332 0.853899 0.146021L10.9999 10.293V5.50002C10.9999 5.36741 11.0526 5.24024 11.1463 5.14647C11.2401 5.0527 11.3673 5.00002 11.4999 5.00002C11.6325 5.00002 11.7597 5.0527 11.8535 5.14647C11.9472 5.24024 11.9999 5.36741 11.9999 5.50002V11.5Z" fill="#FFFFFF"/>
+            </svg>
+        </a>
+        </div>
+        <div class="projectright">
+            -02
+        </div>
+    </div>
+</section>
+</div>
+
+<!-- small screen slider -->
+<div id="projectdiv-sm">
+    <div id="projectheading"><h1>Our last Project</h1></div>
+    <section class="slider-sm">   
+
+    <div class="projectbox-sm">
+        <div class="projectleft">
+            <p class="projectheading">
+                NFTWebsite
+            </p>
+            <div class="projectdetails">
+                NFT website design by<br> me with intuitive<br> design.
+            </div>
+            <a href="./nftWebsite/index.html">
+            <svg class="link" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 11.5C11.9999 11.6326 11.9472 11.7598 11.8535 11.8536C11.7597 11.9473 11.6325 12 11.4999 12H5.4999C5.36729 12 5.24011 11.9473 5.14635 11.8536C5.05258 11.7598 4.9999 11.6326 4.9999 11.5C4.9999 11.3674 5.05258 11.2402 5.14635 11.1465C5.24011 11.0527 5.36729 11 5.4999 11H10.2929L0.145899 0.854021C0.0994111 0.807533 0.062535 0.752344 0.0373759 0.691605C0.0122168 0.630865 -0.000732421 0.565765 -0.000732422 0.500021C-0.000732422 0.434277 0.0122168 0.369177 0.0373759 0.308438C0.062535 0.247698 0.0994111 0.192509 0.145899 0.146021C0.192387 0.0995332 0.247576 0.0626571 0.308316 0.037498C0.369055 0.0123389 0.434155 -0.000610352 0.499899 -0.000610352C0.565643 -0.000610351 0.630743 0.0123389 0.691483 0.037498C0.752222 0.0626571 0.807411 0.0995332 0.853899 0.146021L10.9999 10.293V5.50002C10.9999 5.36741 11.0526 5.24024 11.1463 5.14647C11.2401 5.0527 11.3673 5.00002 11.4999 5.00002C11.6325 5.00002 11.7597 5.0527 11.8535 5.14647C11.9472 5.24024 11.9999 5.36741 11.9999 5.50002V11.5Z" fill="#FFFFFF"/>
+            </svg></a>
+        </div>
+        <div class="projectright">
+            -01
+        </div>
+    </div>
+
+    <div class="projectbox-sm">
+        <div class="projectleft">
+            <p class="projectheading">
+                Booking website
+            </p>
+            <div class="projectdetails">
+                Booking website<br> designed for you
+            </div>
+            <a href="./hotelbooking/index.html">
+            <svg class="link" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 11.5C11.9999 11.6326 11.9472 11.7598 11.8535 11.8536C11.7597 11.9473 11.6325 12 11.4999 12H5.4999C5.36729 12 5.24011 11.9473 5.14635 11.8536C5.05258 11.7598 4.9999 11.6326 4.9999 11.5C4.9999 11.3674 5.05258 11.2402 5.14635 11.1465C5.24011 11.0527 5.36729 11 5.4999 11H10.2929L0.145899 0.854021C0.0994111 0.807533 0.062535 0.752344 0.0373759 0.691605C0.0122168 0.630865 -0.000732421 0.565765 -0.000732422 0.500021C-0.000732422 0.434277 0.0122168 0.369177 0.0373759 0.308438C0.062535 0.247698 0.0994111 0.192509 0.145899 0.146021C0.192387 0.0995332 0.247576 0.0626571 0.308316 0.037498C0.369055 0.0123389 0.434155 -0.000610352 0.499899 -0.000610352C0.565643 -0.000610351 0.630743 0.0123389 0.691483 0.037498C0.752222 0.0626571 0.807411 0.0995332 0.853899 0.146021L10.9999 10.293V5.50002C10.9999 5.36741 11.0526 5.24024 11.1463 5.14647C11.2401 5.0527 11.3673 5.00002 11.4999 5.00002C11.6325 5.00002 11.7597 5.0527 11.8535 5.14647C11.9472 5.24024 11.9999 5.36741 11.9999 5.50002V11.5Z" fill="#FFFFFF"/>
+            </svg></a>
+        </div>
+        <div class="projectright">
+            -02
+        </div>
+    </div>
+    
+    <div class="projectbox-sm">
+        <div class="projectleft">
+            <p class="projectheading">
+                Banking website
+            </p>
+            <div class="projectdetails">
+                Experience convenient<br>and secure banking<br>with our bank website
+            </div>
+            <a href="./bankapp/index.html">
+            <svg class="link" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9999 11.5C11.9999 11.6326 11.9472 11.7598 11.8535 11.8536C11.7597 11.9473 11.6325 12 11.4999 12H5.4999C5.36729 12 5.24011 11.9473 5.14635 11.8536C5.05258 11.7598 4.9999 11.6326 4.9999 11.5C4.9999 11.3674 5.05258 11.2402 5.14635 11.1465C5.24011 11.0527 5.36729 11 5.4999 11H10.2929L0.145899 0.854021C0.0994111 0.807533 0.062535 0.752344 0.0373759 0.691605C0.0122168 0.630865 -0.000732421 0.565765 -0.000732422 0.500021C-0.000732422 0.434277 0.0122168 0.369177 0.0373759 0.308438C0.062535 0.247698 0.0994111 0.192509 0.145899 0.146021C0.192387 0.0995332 0.247576 0.0626571 0.308316 0.037498C0.369055 0.0123389 0.434155 -0.000610352 0.499899 -0.000610352C0.565643 -0.000610351 0.630743 0.0123389 0.691483 0.037498C0.752222 0.0626571 0.807411 0.0995332 0.853899 0.146021L10.9999 10.293V5.50002C10.9999 5.36741 11.0526 5.24024 11.1463 5.14647C11.2401 5.0527 11.3673 5.00002 11.4999 5.00002C11.6325 5.00002 11.7597 5.0527 11.8535 5.14647C11.9472 5.24024 11.9999 5.36741 11.9999 5.50002V11.5Z" fill="#FFFFFF"/>
+            </svg>
+            </a>
+        </div>
+        <div class="projectright">
+            -03
+        </div>
+    </div>
+
+</section>
+</div>
+
+
+<div class="pricing" id="pricing">
+    <div>
+        <center><h1>Pricing</h1></center>
+        <center><p>Get Professional design services at an affordable<br> price with our services</p></center>
+    </div>
+</div>
+<section id="pricingsection">
+    
+    <!-- Gold price box -->
+    <div class="pricebox">
+        <center><h1 class="pricename">Gold</h1></center>
+        <center><h1>$29</h1></center>
+        <ul class="pricelist">
+            <li>
+                <img src="./images/icons/pinktick.svg">
+                <span>1 page design</span>
+            </li>
+            <li>
+                <img src="./images/icons/pinktick.svg">
+                <span>Responsive design</span>
+            </li>
+            <li>
+                <img src="./images/icons/pinktick.svg">
+                <span>Custom design</span>
+            </li>
+            <li>
+                <img src="./images/icons/pinktick.svg">
+                <span>Copyrighting</span>
+            </li>
+            <li>
+                <img src="./images/icons/pinktick.svg">
+                <span>1 day delivery</span>
+            </li>
+            <li>
+                <img src="./images/icons/pinktick.svg">
+                <span>1 custom resource</span>
+            </li>
+        </ul>
+        <center>
+            <button class="button" id="goldButton">Get now</button>
+        </center>
+    </div>
+
+
+    <!-- Diamond price box -->
+    <div class="pricebox">
+        <center><h1 class="pricename">Diamond</h1></center>
+        <center><h1>$93</h1></center>
+        <ul class="pricelist">
+            <li>
+                <img src="./images/icons/yellowtick.svg">
+                <span>3 page design</span>
+            </li>
+            <li>
+                <img src="./images/icons/yellowtick.svg">
+                <span>Responsive design</span>
+            </li>
+            <li>
+                <img src="./images/icons/yellowtick.svg">
+                <span>Custom design</span>
+            </li>
+            <li>
+                <img src="./images/icons/yellowtick.svg">
+                <span>Copyrighting</span>
+            </li>
+            <li>
+                <img src="./images/icons/yellowtick.svg">
+                <span>Design prepared for coding</span>
+            </li>
+            <li>
+                <img src="./images/icons/yellowtick.svg">
+                <span>2 day delivery</span>
+            </li>
+            <li>
+                <img src="./images/icons/yellowtick.svg">
+                <span>3 custom resources</span>
+            </li>
+            <li>
+                <img src="./images/icons/yellowtick.svg">
+                <span>Prototype</span>
+            </li>
+        </ul>
+        <center>
+            <button id="diamondbutton" class="button">Get now</button>
+        </center>
+    </div>
+
+
+     <!-- Platinum price box -->
+     <div class="pricebox">
+        <center><h1 class="pricename">Platinum</h1></center>
+        <center><h1>$153</h1></center>
+        <ul class="pricelist">
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>6 page design</span>
+            </li>
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>Responsive design</span>
+            </li>
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>Custom design</span>
+            </li>
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>Copyrighting</span>
+            </li>
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>Design prepared for coding</span>
+            </li>
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>8 day delivery</span>
+            </li>
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>6 custom resources</span>
+            </li>
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>Prototype</span>
+            </li>
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>Dynamic prototype</span>
+            </li>
+            <li>
+                <img src="./images/icons/greentick.svg">
+                <span>convert to html and css</span>
+            </li>
+        </ul>
+        <center>
+            <button id="platinumbutton" class="button">Get now</button>
+        </center>
+    </div>
+
+</section>
+
+<div class="packagebtncontainer">
+<button class="button" id="packagebutton">Compere Packages</button>
+</div>
+
+
+<footer>
+    <div id="footerlogo">
+        Welx
+    </div>
+    <div class="footercontainer">
+    <div id="footersection">
+        <section>
+            By entering your email on a UI design website, you can gain<br>
+            access to exclusive UI design resources, receive updates on new<br>
+            design releases, and stay ahead of the curve in the ever-<br>
+            evolving world of user interface design.
+        </section>
+        <section id="emailsection">
+            <form id="input">
+            <input type="email" placeholder="your email here" required>
+            <button type="submit"><img src="./images/icons/share.svg"></button> 
+            </form>
+            <div id="footericonsection">
+                <img class="footericon" src="./images/icons/intagram.svg">
+                <img class="footericon" src="./images/icons/twitter.svg">
+            </div>
+        </section>
+    </div>
+    <div id="footerimage">
+    <img  src="./images/illustration/drivingboy.svg">
+    </div>
+</div>
+</footer>
+
+    
+</body>
+
+<script type="text/javascript">
+    elm = document.getElementById('slider');
+    elm.addEventListener("overflow", scroll());
+  
+    function scroll() {
+      shift = elm.scrollWidth * 0.12;
+      elm.scrollTo(shift, 0);
+    }
+  </script>
+
+</html>

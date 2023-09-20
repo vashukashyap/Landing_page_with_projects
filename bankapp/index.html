@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futurebank</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header id="nav">
+        <div id="logo">
+            Future<span>Bank</span>
+        </div>
+
+        <button class="btn">
+            Log <span>in</span>
+        </button>
+
+    </header>
+
+    <section id="motd">
+        <div>
+            <div id="mes"><div id="line"></div><span>Banking product</span></div>
+            <p id="bigmes">Use and enjoy the<br>
+                most convenient<br>
+                <span>application</span>
+            </p>
+            <div id="phoneheading">Your phone number is required for<br>regitration</div>
+            <form id="phoneform">
+                <div id="details">
+                <div>
+                    <label>code</label><br>
+                    <div id="countryCode">
+                    <img src="./images/country/england.svg">
+                    <select id="cntcode" name="countryCode">
+                       <option id="england" data-countryCode="US" value="1" Selected thumbnail="./images/country/england.svg">+1</option>
+	                    <option data-countryCode="GB" value="44" ><img> +44</option>
+                        </optgroup>
+                    </select>
+                    </div> 
+
+                </div>
+                <div>
+                    <label>Phone number</label><br>
+                    <input id="phonenoinput" type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="123 456 7890" required>
+                </div>
+                </div>
+                <div id="phonebtndiv">
+                    <button id="phonebtn" type="submit">Join</button>
+                </div>
+            </form>
+            
+                
+                
+        </div>
+        
+        <div id="carddiv">
+            <div id="blur1"></div>
+            <div id="blur2"></div>
+            <img id="cardimg" src="./images/illustration/card.svg">
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Have some issue? <span>contact us</span></p>
+    </footer>
+    
+</body>
+</html>
